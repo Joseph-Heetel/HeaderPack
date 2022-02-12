@@ -119,5 +119,10 @@ namespace SingleHeaderLibBuilder
             }
             return Task.CompletedTask;
         }
+
+        public override string ToString()
+        {
+            return RelativeFileName;
+        }
     }
 }
